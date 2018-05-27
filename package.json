@@ -1,0 +1,16 @@
+{
+  "name": "dotio",
+  "scripts": {
+    "start": "http-server",
+    "build": "bsb -make-world -backend js",
+    "clean": "bsb -clean-world"
+  },
+  "dependencies": {
+    "Reasongl": "github:bsansouci/reasongl",
+    "Reprocessing": "github:schmavery/reprocessing",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "bs-platform": "bsansouci/bsb-native#2.1.1"
+  }
+}

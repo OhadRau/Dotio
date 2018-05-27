@@ -1,0 +1,10 @@
+{
+  "name": "dotio",
+  "sources": "src",
+  "bs-dependencies": ["Reprocessing"],
+  "entries": [{
+    "backend": "js",
+    "main-module": "Index"
+  }],
+  "refmt": 3,
+}
